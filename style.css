@@ -97,9 +97,45 @@ main{
     align-items: center;
     row-gap: 10px;
     column-gap: 2em;
+ 
     
 }
 .imageWrapper{
     align-self: center;
     font-weight: bold;
+}
+#benefits{
+    height: 600px;
+    background-image: url('Images/benefitsBackground.jpg');
+    background-size: cover;
+    width: 1200px;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 15px;
+   left: 5%;
+}
+.benefitWrapper{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(0,123,167);;
+    width: 300px;
+    color:seashell;
+}
+.benefitWrapper p{
+    
+}
+footer{
+    height: 80px;
+    text-align: center;
+    font-size: 15px;
+    margin-top:10px;
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
 }
