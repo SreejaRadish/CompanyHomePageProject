@@ -157,15 +157,17 @@ footer{
     #benefits{
         display: flex;
         flex-direction: column;
-        justify-items: start;
-        align-items: center;
+      
+      
         height:500px;
         width: auto;
         margin: 0 auto;
+       
     }
     .benefitWrapper{
         height:25px;
         background-color: transparent;
+       margin :auto;
     }
     .benefitWrapper p{
         display:none;
